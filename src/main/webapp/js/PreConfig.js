@@ -10,3 +10,6 @@ window.DRAWIO_VIEWER_URL = null; // Replace your path to the viewer js, e.g. htt
 window.DRAW_MATH_URL = 'math';
 window.DRAWIO_CONFIG = null; // Replace with your custom draw.io configurations. For more details, https://desk.draw.io/support/solutions/articles/16000058316
 urlParams['sync'] = 'manual';
+
+// Disable external services
+urlParams["offline"] = "1";
